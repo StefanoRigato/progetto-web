@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/progetto-web/img/lotus.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>progetto-web</title>
+    <script type="module" crossorigin src="/progetto-web/assets/index-CgsnCLas.js"></script>
+    <link rel="stylesheet" crossorigin href="/progetto-web/assets/index-D8cpgjBt.css">
+  </head>
+  <body>
+    <script>
+      (function() {
+          let path = window.location.pathname;
+          let basePath = '/progetto-web/';
+
+          // If we're at a path that's not the base and doesn't have a hash, redirect to base
+          if (path !== basePath && !window.location.hash) {
+              window.location.replace(basePath);
+          }
+      })();
+    </script>
+    <noscript>
+        You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
