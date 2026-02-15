@@ -18,7 +18,7 @@ const WeaponInfo = ({ weapon }) => {
                             .map(([type, value]) => (
                             <div className="row" key={type}>
                                 <div className="col-sm">
-                                    <img className={style.damageIcon} src={`/src/assets/img/${type}.png`} />
+                                    <img className={style.damageIcon} src={`/img/${type}.png`} />
                                 </div>
                                 <div className="col-sm text-start">
                                     <h4>
