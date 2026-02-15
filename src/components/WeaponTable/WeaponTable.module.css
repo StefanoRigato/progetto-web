@@ -1,0 +1,8 @@
+.table td {
+    vertical-align: middle;
+}
+
+.action {
+    padding: 10px 6px;
+    font-weight: bold;
+}

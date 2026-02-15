@@ -1,0 +1,38 @@
+.navBar {
+    background: white;
+    border-bottom: 2px solid darkred;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+}
+
+/* Rule added because of update to reactstrap 9.x */
+.navbarContainer {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 50px;
+    transition: all .2s;
+    margin-right: 20px;
+    transform: scale(1);
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+
+.navItem a {
+    font-weight: bold;
+    transition: all .2s;
+    transform: scale(1);
+}
+
+.navItem a:hover {
+    color: darkred;
+    transform: scale(1.2);
+}
